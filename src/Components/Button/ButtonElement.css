@@ -1,0 +1,26 @@
+.button-element, .button-element-link {
+  box-sizing: border-box;
+  padding: 8px;
+  background: none;
+  outline: none;
+  border-radius: 6px;
+  display: block;
+}
+.button-element-link {
+  text-decoration: none;
+}
+.button-red {
+  border: 1px solid red;
+  color: red;
+}
+.button-green {
+  border: 1px solid green;
+  color: green;
+}
+.button-blue {
+  border: 1px solid blue;
+  color: blue;
+}
+.button-element:hover {
+  cursor: pointer;
+}
